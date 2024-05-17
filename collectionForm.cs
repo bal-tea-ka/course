@@ -58,7 +58,7 @@ namespace Design_Coure_Work
                     pics[i].MouseLeave += new EventHandler(pictureBox_MouseLeave);
                     pics[i].Width = 200;
                     pics[i].Height = 200;
-                    pics[i].Image = Image.FromFile(@".Colors\" + myDict[i]);
+                    pics[i].Image = Image.FromFile(@".\Colors\" + myDict[i]);
                     pics[i].SizeMode = PictureBoxSizeMode.StretchImage;
                     pics[i].BorderStyle = BorderStyle.Fixed3D;
                     fl.Controls.Add(pics[i]); // Добавляем PictureBox на панель
